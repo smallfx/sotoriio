@@ -9,6 +9,10 @@ To run locally:
 ```
 $ cd <path-to-sotoriio>
 
+$ yarn
+- or -
+$ npm install
+
 $ yarn dev
 - or -
 $ npm run dev
