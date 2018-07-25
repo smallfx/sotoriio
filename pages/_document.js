@@ -14,6 +14,7 @@ export default class StyledDocument extends Document {
       <html>
         <Head>
           <title>Sotoriio</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet" />
           {this.props.styleTags}
         </Head>
