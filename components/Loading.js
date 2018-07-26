@@ -5,15 +5,15 @@ const LoadContainer = styled.div`
 `;
 
 export const Loading = ({ user, works, work }) => {
-	if (user) {
+  if (user) {
     return <LoadContainer>Loading user...</LoadContainer>
-	}
-	if (works) {
+  }
+  if (works) {
     return <LoadContainer>Loading works...</LoadContainer>
-	}
-	if (work) {
+  }
+  if (work) {
     return <LoadContainer>Loading work...</LoadContainer>
-	}
+  }
 
   return <LoadContainer>Loading...</LoadContainer>
 };
